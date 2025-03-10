@@ -14,6 +14,7 @@ import OutfitsPage from './Pages/OutfitsPage';
 
 function App() {
     const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+    console.log(API_BASE_URL);
     const [token, setToken] = useState('');
     const [userId, setUserId] = useState('');
     const [activePage, setActivePage] = useState('Clothes');  // Default page
