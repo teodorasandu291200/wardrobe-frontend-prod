@@ -1,48 +1,34 @@
-Wardrobe Frontend (Production Build)
+# Wardrobe app production frontend
 
-This repository contains the production-ready frontend for the Wardrobe App. It is a single-page application (SPA) built with React to help users manage, organize, and plan their wardrobe items and outfits.
+A React single-page application for managing and planning wardrobe items and outfits.
 
-Technology Stack
+Built for experimentation, learning, and portfolio demonstration.
 
-React (v18+)
+---
 
-React Router for client-side routing
+## 🔍 Features
 
-Axios for HTTP requests to the backend API
+- User-friendly clothing item management
+- Outfit creation and planning
+- Category filtering and search
+- Integration with a REST API backend
+- Mobile-responsive design
 
-CSS/SCSS for styling (custom or framework-based)
+---
 
-Vite (or Create React App) for build and development tooling
+## 🧰 Tech Stack
 
-ESLint and Prettier for code quality and formatting (if configured)
+- React (v18+)
+- React Router for routing
+- Axios for HTTP requests
+- Vite (or Create React App) for tooling
+- Axios
 
-Installation
+---
 
-Clone the repository:
+## 🚀 Setup
 
-git clone https://github.com/teodorasandu291200/wardrobe-frontend-prod.git
-cd wardrobe-frontend-prod
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Build for production:
-
-npm run build
-
-Preview production build locally:
-
-npm run preview
-
-Backend Integration
-
-This frontend is designed to work with a REST API backend. API URLs can be configured in a .env file.
-
-Example:
-
-VITE_API_URL=https://your-backend-api.com
+1. Clone this repository:
+   ```bash
+   git clone https://gitlab.com/your-username/wardrobe-frontend-prod.git
+   cd wardrobe-frontend-prod
